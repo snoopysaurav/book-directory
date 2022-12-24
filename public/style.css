@@ -1,0 +1,49 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.show-all-books {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.book-data {
+  margin: 0.5rem 0.5rem;
+  padding: 1rem;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+.controls-container {
+  padding: 1rem;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+.controls-container h3 {
+  width: auto;
+  margin: 0.1rem auto;
+}
+button {
+  padding: 0.1rem;
+}
+form {
+  padding: 2rem 0;
+}

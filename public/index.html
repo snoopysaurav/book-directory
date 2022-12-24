@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Boook Directory</title>
+  </head>
+  <body>
+    <!-- Headerr -->
+    <header>
+      <h2>Book Directory</h2>
+    </header>
+    <main>
+      <div class="container">
+        <div class="book-container">
+          <div class="show-all-books"></div>
+        </div>
+        <div class="controls-container">
+          <div class="add-container">
+            <h3>Add Book</h3>
+            <form class="add-book-form">
+              <p>Title</p>
+              <input type="text" name="title" value="" id="title" required />
+              <p>Author</p>
+              <input type="text" name="author" value="" id="author" required />
+              <p>Rating</p>
+              <input
+                type="number"
+                name="rating"
+                value=""
+                id="rating"
+                required
+              />
+              <p>Description</p>
+              <input
+                type="text"
+                name="description"
+                value=""
+                id="description"
+                required
+              />
+              <br />
+              <button type="submit">Add 📚</button>
+            </form>
+          </div>
+          <div class="update-container">
+            <h3>Update Book</h3>
+            <p>Update from here</p>
+            <form class="update-form">
+              <p>Title</p>
+              <input
+                type="text"
+                name="title"
+                value=""
+                id="updateTitle"
+                required
+              />
+              <p>Author</p>
+              <input
+                type="text"
+                name="author"
+                value=""
+                id="updateAuthor"
+                required
+              />
+              <p>Rating</p>
+              <input
+                type="number"
+                name="rating"
+                value=""
+                id="updateRating"
+                required
+              />
+              <p>Description</p>
+              <input
+                type="text"
+                name="description"
+                value=""
+                id="updateDescription"
+                required
+              />
+              <br />
+              <button type="submit">Update 📚</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- axios -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- script -->
+    <script src="./index.js"></script>
+  </body>
+</html>
